@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences.Editor editor = sharedPreferences.edit();
         //After that i'll save the data using this editor
-        editor.putString("key name ",name);
+        editor.putString("key name",name);
         editor.putString("key message", message);
         editor.putInt("key count", count);
         editor.putBoolean("key remember", isChecked);
